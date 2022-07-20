@@ -1,0 +1,77 @@
+.body{
+        box-sizing: border-box;
+}
+.main__list__area{
+        width: 600px;
+        height: 70vh;
+        margin: 0 auto;
+        background: #0575E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.input__box{
+        margin: 0 50px;
+        padding-top: 20px;
+}
+#inputing{
+        width: 400px;
+        height: 30px;
+        border: none;
+        outline: none;
+}
+.input__box button{
+        width: 90px;
+        height: 35px !important;
+        background-color: #0575E6;
+        border: none;
+        color: #fff;
+}
+.input__box button:hover{
+        background-color: #021B79;
+        transition: 0.9s;
+}
+.list__area{
+        width: 478px;
+        height: 20px;
+        margin: 0 auto;
+}
+.list__item{
+        height: 20px;
+        display: flex;
+        width: 310px;
+        margin-top: 10px;
+        padding-left: 10px;
+        background: #D3CCE3;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        color: #0575E6;  /* fallback for old browsers */
+        color: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        color: linear-gradient(to right, #021B79, #0575E6);
+        margin-left: 10px;
+}
+.list_btn_e{
+        height: 20px;
+        width: 65px;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        background: #00b09b;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.list_btn_d{
+        height: 20px;
+        width: 65px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+        background: #F00000;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
