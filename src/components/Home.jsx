@@ -71,14 +71,7 @@ function Home() {
                 </div>
                ))}
         </div>
-  </div>;
-
-        function newFunction() {
-                return updateHandler();
-        }
+  </div>;  
 }
 
 export default Home;
-
-
-{/**/}
